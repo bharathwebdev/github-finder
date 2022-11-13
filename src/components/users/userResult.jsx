@@ -6,7 +6,6 @@ import Githubcontext from "../../context/github/GithubContext";
 
 const UserResult=()=>{
  const {loading,users}=useContext(Githubcontext)
-
     
     if(!loading){
         return(

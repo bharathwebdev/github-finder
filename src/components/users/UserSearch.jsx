@@ -24,7 +24,8 @@ const handleSubmit=async(e)=>{
         })
         //todo- something 
         
-       const users = await SearchUsers(text)
+       const users = await SearchUsers(text);
+    
        dispatch({
         type:'GET_USERS',
         payload:users
